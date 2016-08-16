@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5510351D62E40E00689FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5510341D62E40E00689FEC /* main.m */; };
+		EF5510381D62E40E00689FEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5510371D62E40E00689FEC /* AppDelegate.m */; };
+		EF5510401D62E40E00689FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF55103F1D62E40E00689FEC /* Assets.xcassets */; };
+		EF5510431D62E40E00689FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5510411D62E40E00689FEC /* LaunchScreen.storyboard */; };
+		EF55104E1D62E40F00689FEC /* test_statusBar_colorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55104D1D62E40F00689FEC /* test_statusBar_colorTests.m */; };
+		EF5510591D62E40F00689FEC /* test_statusBar_colorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5510581D62E40F00689FEC /* test_statusBar_colorUITests.m */; };
+		EF5510681D62E6FF00689FEC /* futureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5510671D62E6FF00689FEC /* futureViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF55104A1D62E40F00689FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5510281D62E40E00689FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF55102F1D62E40E00689FEC;
+			remoteInfo = test_statusBar_color;
+		};
+		EF5510551D62E40F00689FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5510281D62E40E00689FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF55102F1D62E40E00689FEC;
+			remoteInfo = test_statusBar_color;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5510301D62E40E00689FEC /* test_statusBar_color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_statusBar_color.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5510341D62E40E00689FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5510361D62E40E00689FEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5510371D62E40E00689FEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF55103F1D62E40E00689FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5510421D62E40E00689FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5510441D62E40E00689FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5510491D62E40F00689FEC /* test_statusBar_colorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_statusBar_colorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF55104D1D62E40F00689FEC /* test_statusBar_colorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_statusBar_colorTests.m; sourceTree = "<group>"; };
+		EF55104F1D62E40F00689FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5510541D62E40F00689FEC /* test_statusBar_colorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_statusBar_colorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5510581D62E40F00689FEC /* test_statusBar_colorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_statusBar_colorUITests.m; sourceTree = "<group>"; };
+		EF55105A1D62E40F00689FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5510661D62E6FF00689FEC /* futureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = futureViewController.h; sourceTree = "<group>"; };
+		EF5510671D62E6FF00689FEC /* futureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = futureViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF55102D1D62E40E00689FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5510461D62E40F00689FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5510511D62E40F00689FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5510271D62E40E00689FEC = {
+			isa = PBXGroup;
+			children = (
+				EF5510321D62E40E00689FEC /* test_statusBar_color */,
+				EF55104C1D62E40F00689FEC /* test_statusBar_colorTests */,
+				EF5510571D62E40F00689FEC /* test_statusBar_colorUITests */,
+				EF5510311D62E40E00689FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5510311D62E40E00689FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5510301D62E40E00689FEC /* test_statusBar_color.app */,
+				EF5510491D62E40F00689FEC /* test_statusBar_colorTests.xctest */,
+				EF5510541D62E40F00689FEC /* test_statusBar_colorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5510321D62E40E00689FEC /* test_statusBar_color */ = {
+			isa = PBXGroup;
+			children = (
+				EF5510361D62E40E00689FEC /* AppDelegate.h */,
+				EF5510371D62E40E00689FEC /* AppDelegate.m */,
+				EF5510661D62E6FF00689FEC /* futureViewController.h */,
+				EF5510671D62E6FF00689FEC /* futureViewController.m */,
+				EF55103F1D62E40E00689FEC /* Assets.xcassets */,
+				EF5510411D62E40E00689FEC /* LaunchScreen.storyboard */,
+				EF5510441D62E40E00689FEC /* Info.plist */,
+				EF5510331D62E40E00689FEC /* Supporting Files */,
+			);
+			path = test_statusBar_color;
+			sourceTree = "<group>";
+		};
+		EF5510331D62E40E00689FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5510341D62E40E00689FEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF55104C1D62E40F00689FEC /* test_statusBar_colorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF55104D1D62E40F00689FEC /* test_statusBar_colorTests.m */,
+				EF55104F1D62E40F00689FEC /* Info.plist */,
+			);
+			path = test_statusBar_colorTests;
+			sourceTree = "<group>";
+		};
+		EF5510571D62E40F00689FEC /* test_statusBar_colorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5510581D62E40F00689FEC /* test_statusBar_colorUITests.m */,
+				EF55105A1D62E40F00689FEC /* Info.plist */,
+			);
+			path = test_statusBar_colorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF55102F1D62E40E00689FEC /* test_statusBar_color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF55105D1D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_color" */;
+			buildPhases = (
+				EF55102C1D62E40E00689FEC /* Sources */,
+				EF55102D1D62E40E00689FEC /* Frameworks */,
+				EF55102E1D62E40E00689FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_statusBar_color;
+			productName = test_statusBar_color;
+			productReference = EF5510301D62E40E00689FEC /* test_statusBar_color.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5510481D62E40F00689FEC /* test_statusBar_colorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5510601D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_colorTests" */;
+			buildPhases = (
+				EF5510451D62E40F00689FEC /* Sources */,
+				EF5510461D62E40F00689FEC /* Frameworks */,
+				EF5510471D62E40F00689FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF55104B1D62E40F00689FEC /* PBXTargetDependency */,
+			);
+			name = test_statusBar_colorTests;
+			productName = test_statusBar_colorTests;
+			productReference = EF5510491D62E40F00689FEC /* test_statusBar_colorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5510531D62E40F00689FEC /* test_statusBar_colorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5510631D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_colorUITests" */;
+			buildPhases = (
+				EF5510501D62E40F00689FEC /* Sources */,
+				EF5510511D62E40F00689FEC /* Frameworks */,
+				EF5510521D62E40F00689FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5510561D62E40F00689FEC /* PBXTargetDependency */,
+			);
+			name = test_statusBar_colorUITests;
+			productName = test_statusBar_colorUITests;
+			productReference = EF5510541D62E40F00689FEC /* test_statusBar_colorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5510281D62E40E00689FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "傅勇权";
+				TargetAttributes = {
+					EF55102F1D62E40E00689FEC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF5510481D62E40F00689FEC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF55102F1D62E40E00689FEC;
+					};
+					EF5510531D62E40F00689FEC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF55102F1D62E40E00689FEC;
+					};
+				};
+			};
+			buildConfigurationList = EF55102B1D62E40E00689FEC /* Build configuration list for PBXProject "test_statusBar_color" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5510271D62E40E00689FEC;
+			productRefGroup = EF5510311D62E40E00689FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF55102F1D62E40E00689FEC /* test_statusBar_color */,
+				EF5510481D62E40F00689FEC /* test_statusBar_colorTests */,
+				EF5510531D62E40F00689FEC /* test_statusBar_colorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF55102E1D62E40E00689FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5510431D62E40E00689FEC /* LaunchScreen.storyboard in Resources */,
+				EF5510401D62E40E00689FEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5510471D62E40F00689FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5510521D62E40F00689FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF55102C1D62E40E00689FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5510681D62E6FF00689FEC /* futureViewController.m in Sources */,
+				EF5510381D62E40E00689FEC /* AppDelegate.m in Sources */,
+				EF5510351D62E40E00689FEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5510451D62E40F00689FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF55104E1D62E40F00689FEC /* test_statusBar_colorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5510501D62E40F00689FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5510591D62E40F00689FEC /* test_statusBar_colorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF55104B1D62E40F00689FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF55102F1D62E40E00689FEC /* test_statusBar_color */;
+			targetProxy = EF55104A1D62E40F00689FEC /* PBXContainerItemProxy */;
+		};
+		EF5510561D62E40F00689FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF55102F1D62E40E00689FEC /* test_statusBar_color */;
+			targetProxy = EF5510551D62E40F00689FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5510411D62E40E00689FEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5510421D62E40E00689FEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF55105B1D62E40F00689FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF55105C1D62E40F00689FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF55105E1D62E40F00689FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test_statusBar_color/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yipiao.fuYQ.test-statusBar-color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF55105F1D62E40F00689FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test_statusBar_color/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yipiao.fuYQ.test-statusBar-color";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5510611D62E40F00689FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = test_statusBar_colorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yipiao.fuYQ.test-statusBar-colorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_statusBar_color.app/test_statusBar_color";
+			};
+			name = Debug;
+		};
+		EF5510621D62E40F00689FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = test_statusBar_colorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yipiao.fuYQ.test-statusBar-colorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_statusBar_color.app/test_statusBar_color";
+			};
+			name = Release;
+		};
+		EF5510641D62E40F00689FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = test_statusBar_colorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yipiao.fuYQ.test-statusBar-colorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test_statusBar_color;
+			};
+			name = Debug;
+		};
+		EF5510651D62E40F00689FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = test_statusBar_colorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yipiao.fuYQ.test-statusBar-colorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = test_statusBar_color;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF55102B1D62E40E00689FEC /* Build configuration list for PBXProject "test_statusBar_color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF55105B1D62E40F00689FEC /* Debug */,
+				EF55105C1D62E40F00689FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF55105D1D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF55105E1D62E40F00689FEC /* Debug */,
+				EF55105F1D62E40F00689FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5510601D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_colorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5510611D62E40F00689FEC /* Debug */,
+				EF5510621D62E40F00689FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5510631D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_colorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5510641D62E40F00689FEC /* Debug */,
+				EF5510651D62E40F00689FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5510281D62E40E00689FEC /* Project object */;
+}
