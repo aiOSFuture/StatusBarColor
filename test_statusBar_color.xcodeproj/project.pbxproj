@@ -14,6 +14,8 @@
 		EF55104E1D62E40F00689FEC /* test_statusBar_colorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55104D1D62E40F00689FEC /* test_statusBar_colorTests.m */; };
 		EF5510591D62E40F00689FEC /* test_statusBar_colorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5510581D62E40F00689FEC /* test_statusBar_colorUITests.m */; };
 		EF5510681D62E6FF00689FEC /* futureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5510671D62E6FF00689FEC /* futureViewController.m */; };
+		EF6039991D64397A000CB17E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6039981D64397A000CB17E /* ViewController.m */; };
+		EF60399F1D644583000CB17E /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = EF60399E1D644583000CB17E /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		EF55105A1D62E40F00689FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5510661D62E6FF00689FEC /* futureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = futureViewController.h; sourceTree = "<group>"; };
 		EF5510671D62E6FF00689FEC /* futureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = futureViewController.m; sourceTree = "<group>"; };
+		EF6039971D64397A000CB17E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF6039981D64397A000CB17E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF60399D1D644583000CB17E /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		EF60399E1D644583000CB17E /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 				EF5510371D62E40E00689FEC /* AppDelegate.m */,
 				EF5510661D62E6FF00689FEC /* futureViewController.h */,
 				EF5510671D62E6FF00689FEC /* futureViewController.m */,
+				EF6039971D64397A000CB17E /* ViewController.h */,
+				EF6039981D64397A000CB17E /* ViewController.m */,
+				EF60399D1D644583000CB17E /* test.h */,
+				EF60399E1D644583000CB17E /* test.m */,
 				EF55103F1D62E40E00689FEC /* Assets.xcassets */,
 				EF5510411D62E40E00689FEC /* LaunchScreen.storyboard */,
 				EF5510441D62E40E00689FEC /* Info.plist */,
@@ -266,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF60399F1D644583000CB17E /* test.m in Sources */,
 				EF5510681D62E6FF00689FEC /* futureViewController.m in Sources */,
 				EF5510381D62E40E00689FEC /* AppDelegate.m in Sources */,
+				EF6039991D64397A000CB17E /* ViewController.m in Sources */,
 				EF5510351D62E40E00689FEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +498,7 @@
 				EF55105F1D62E40F00689FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF5510601D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_colorTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +507,7 @@
 				EF5510621D62E40F00689FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF5510631D62E40F00689FEC /* Build configuration list for PBXNativeTarget "test_statusBar_colorUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +516,7 @@
 				EF5510651D62E40F00689FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
